@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snigz's World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+    <div class="vlog-bg" aria-hidden="true">
+        <div class="vlog-icon camera">
+            <span></span>
+        </div>
+        <div class="vlog-icon youtube">
+            <span></span>
+        </div>
+        <div class="vlog-icon speaker">
+            <span></span>
+        </div>
+        <div class="vlog-icon quote">CREATOR</div>
+        <div class="vlog-icon mic"></div>
+        <div class="vlog-icon phone">
+            <span></span>
+        </div>
+        <div class="vlog-icon clapper">
+            <span></span>
+        </div>
+        <div class="vlog-icon instagram"></div>
+        <div class="vlog-icon headphones"></div>
+        <div class="vlog-icon threads">@</div>
+        <div class="vlog-icon facebook">f</div>
+
+    </div>
+    <div class="image-frame"><img src="img/snigProfilePic.png" alt="snigzVlogs"> </div>
+    <div><p class="eyebrow">WELCOME TO</p>
+        <h1>Snigz's<span> Arena</span></h1>
+        <p id="tagline"></p><button class="button" id="openContactPopup" type="button">Contact Us</button></div>
+</header>
+<dialog class="contact-popup" id="contactPopup">
+    <button class="popup-close" id="closeContactPopup" type="button" aria-label="Close contact popup">&times;</button>
+    <p class="eyebrow">CONTACT US</p>
+    <h2>Let&apos;s connect.</h2>
+    <p>Call us on <a href="tel:8917326114">8917326114</a></p>
+    <p>DM us on <a href="https://www.instagram.com/Snigzmotivation_Vlogs" target="_blank" rel="noopener">@Snigzmotivation_Vlogs</a></p>
+    <p>Mail us on <a href="mailto:snigzmotivation@gmail.com">snigzmotivation@gmail.com</a></p>
+</dialog>
+<main>
+    <section><p class="eyebrow">ABOUT THE CHANNEL</p>
+        <h2>Inspiration for your everyday journey.</h2>
+        <p id="about">Loading portfolio details…</p></section>
+    <section><p class="eyebrow">FEATURED CONTENT</p>
+        <div id="content" class="cards"></div>
+    </section>
+    <section><p class="eyebrow">MEET THE FOUNDER</p>
+        <div id="aboutMe" class="founder-card">
+            <p>Hi, I&apos;m Snigdha, the creator of <strong>Snigz Motivation &amp; Vlogs</strong>. I started this channel to inspire, grow, and enjoy life&apos;s journey-one video at a time.</p>
+            <p>Here, I share motivational videos, lifestyle and personal vlogs, travel adventures, career and productivity tips, and real-life moments that celebrate positivity and self-improvement. My goal is to offer content that encourages you to stay focused, explore new experiences, and keep growing.</p>
+            <p>Whether you&apos;re looking for motivation, travel inspiration, or an authentic glimpse into everyday life, I&apos;m glad you&apos;re here and part of this community.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact"><p class="eyebrow">GET IN TOUCH</p>
+        <h2>Your Thoughts, Our Responsibility</h2>
+        <form id="contactForm"><input id="name" placeholder="Your name" required><input id="email" type="email"
+                                                                                        placeholder="Email address"
+                                                                                        required><textarea id="message"
+                                                                                                           placeholder="Your message"
+                                                                                                           required></textarea>
+            <button class="button" type="submit">Send message</button>
+            <p id="status"></p></form>
+    </section>
+</main>
+<footer>@2026 Snigzmotivation&amp;Vlogs</footer>
+<script src="app.js"></script>
+</body>
+</html>
